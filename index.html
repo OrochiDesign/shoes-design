@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Urban Shoes | Orochi Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-ellipsis-v"></div>
+        <a href="#" class="logo">orochi shoes</a>
+        <nav class="navbar">
+            <a href="#home">inicio</a>
+            <a href="#products">productos</a>
+            <a href="#featured">destacados</a>
+            <a href="#review">clientes</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>nike jordan</span>
+                    <h3>yellow fight</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab modi eius illum enim optio iure possimus tenetur provident, fuga consectetur?</p>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+                <div class="image">
+                    <img src="img/banner-1.png" class="shoe" alt="">
+                    <img src="img/logo1.png" class="text" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>nike jordan</span>
+                    <h3>retro 1 blue</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab modi eius illum enim optio iure possimus tenetur provident, fuga consectetur?</p>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+                <div class="image">
+                    <img src="img/banner-2.png" class="shoe" alt="">
+                    <img src="img/logo2.png" class="text" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>jordan 4</span>
+                    <h3>black fight</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab modi eius illum enim optio iure possimus tenetur provident, fuga consectetur?</p>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+                <div class="image">
+                    <img src="img/banner-3.png" class="shoe" alt="">
+                    <img src="img/logo3.png" class="text" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="prev" class="fas fa-reply" onclick="prev()"></div>
+        <div id="next" class="fas fa-share" onclick="next()"></div>
+    </section>
+    
+    <section class="service">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>envios a domicilio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, ipsa.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-undo"></i>
+                <h3>10 dias para devoluciones</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, ipsa.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>atención al cliente 24/7</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, ipsa.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="products" id="products">
+        <h1 class="heading">últimos <span> productos</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="img/producto1.jpg" alt="">
+                <div class="content">
+                    <h3>retro 1 orange</h3>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="img/producto2.jpg" alt="">
+                <div class="content">
+                    <h3>retro 1 silver</h3>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="img/producto3.jpg" alt="">
+                <div class="content">
+                    <h3>retro 1 red</h3>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="img/producto4.jpg" alt="">
+                <div class="content">
+                    <h3>jordan 4 violet</h3>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="img/producto5.jpg" alt="">
+                <div class="content">
+                    <h3>jordan 4 classic</h3>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="img/producto6.jpg" alt="">
+                <div class="content">
+                    <h3>retro 1 vintage</h3>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="featured" id="featured">
+        <h1 class="heading">productos <span> destacados</span></h1>
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/galeria1-1.jpg" class="feactured-1" alt="">
+                    <img src="img/galeria1-2.jpg" class="feactured-1" alt="">
+                    <img src="img/galeria1-3.jpg" class="feactured-1" alt="">
+                    <img src="img/galeria1-4.jpg" class="feactured-1" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="img/galeria1-1.jpg" class="big-image-1" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>nuevas nike jordan retro 1</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab fuga assumenda, quo aut libero provident, numquam perspiciatis. Provident, est, ut.</p>
+                <div class="price">$10.000 <span>$15.000</span></div>
+                <a href="#" class="btn">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/galeria2-1.jpg" class="feactured-2" alt="">
+                    <img src="img/galeria2-2.jpg" class="feactured-2" alt="">
+                    <img src="img/galeria2-3.jpg" class="feactured-2" alt="">
+                    <img src="img/galeria2-4.jpg" class="feactured-2" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="img/galeria2-1.jpg" class="big-image-2" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>nuevas nike jordan retro 1</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab fuga assumenda, quo aut libero provident, numquam perspiciatis. Provident, est, ut.</p>
+                <div class="price">$10.000 <span>$15.000</span></div>
+                <a href="#" class="btn">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/galeria3-1.jpg" class="feactured-3" alt="">
+                    <img src="img/galeria3-2.jpg" class="feactured-3" alt="">
+                    <img src="img/galeria3-3.jpg" class="feactured-3" alt="">
+                    <img src="img/galeria3-4.jpg" class="feactured-3" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="img/galeria3-1.jpg" class="big-image-3" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>nuevas nike jordan retro 1</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab fuga assumenda, quo aut libero provident, numquam perspiciatis. Provident, est, ut.</p>
+                <div class="price">$10.000 <span>$15.000</span></div>
+                <a href="#" class="btn">agregar al carrito</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="review" id="review">
+        <h1 class="heading">clientes <span>habituales</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/cliente1.jpg" alt="">
+                <h3>sophie delphine</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aliquam, quia possimus quo error, voluptas rem assumenda fuga recusandae voluptate a sunt et eaque voluptatum. Cum expedita earum nemo necessitatibus!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/cliente2.jpg" alt="">
+                <h3>sol victoria</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aliquam, quia possimus quo error, voluptas rem assumenda fuga recusandae voluptate a sunt et eaque voluptatum. Cum expedita earum nemo necessitatibus!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/cliente3.jpg" alt="">
+                <h3>megan alexander</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aliquam, quia possimus quo error, voluptas rem assumenda fuga recusandae voluptate a sunt et eaque voluptatum. Cum expedita earum nemo necessitatibus!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="newsletter">
+        <div class="content">
+            <h3>descuentos mensuales</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio harum recusandae est doloribus alias expedita aut quos ab laboriosam?</p>
+            <form action="">
+                <input type="email" placeholder="ingresa tu email.." class="box">
+                <input type="submit" value="enviar" class="btn">
+            </form>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>nuestras tiendas</h3>
+                <a href="#">rosario</a>
+                <a href="#">usa</a>
+                <a href="#">francia</a>
+                <a href="#">italia</a>
+            </div>
+            <div class="box">
+                <h3>enlaces</h3>
+                <a href="#home">inicio</a>
+                <a href="#products">productos</a>
+                <a href="#featured">destacados</a>
+                <a href="#review">clientes</a>
+            </div>
+            <div class="box">
+                <h3>enlaces extras</h3>
+                <a href="#">mi cuenta</a>
+                <a href="#">mis favoritas</a>
+                <a href="#">mis compras</a>
+                <a href="#">descuentos</a>
+            </div>
+            <div class="box">
+                <h3>seguinos en:</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">pinterest</a>
+            </div>
+            <div class="credit">diseñado por <span>&copy; orochi design</span> | todos los derechos reservados.</div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
